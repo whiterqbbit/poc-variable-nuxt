@@ -1,8 +1,8 @@
 export default defineNuxtConfig({
-  devtools: { enabled: true },
   runtimeConfig: {
     public: {
-      yolo: process.env.YOLO
+      NUXT_TOMATO: process.env.NUXT_TOMATO,
+      TOMATO: process.env.TOMATO
     }
   }
 })

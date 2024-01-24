@@ -1,6 +1,7 @@
 <template>
   <div>
-    JE SUIS LA <br>
-    {{ useRuntimeConfig().public.yolo }}
+  TOMATO: {{ useRuntimeConfig().public.TOMATO }}
+  <br>
+  NUXT_TOMATO {{ useRuntimeConfig().public.NUXT_TOMATO }}
   </div>
 </template>

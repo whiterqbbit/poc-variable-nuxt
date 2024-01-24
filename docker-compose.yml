@@ -6,4 +6,5 @@ services:
     ports: 
       - 3000:3000
     environment:
-      - YOLO=${YOLO}
+      - TOMATO=${TOMATO}
+      - NUXT_TOMATO=${NUXT_TOMATO}
