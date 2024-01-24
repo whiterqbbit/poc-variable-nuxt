@@ -1,2 +1,6 @@
-TOMATO=hi_du_env
-NUXT_TOMATO=nuxt_hi_du_env
+TOMATO=tomato_from_env
+NUXT_TOMATO=nuxt_tomato_from_env
+NUXT_PUBLIC_TOMATO=nuxt_public_tomato_from_env
+
+APPLE=apple_from_env
+NUXT_APPLE=nuxt_apple_from_env
