@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  instanciator:
+    image: poc-nuxt
+    ports: 
+      - 3000:3000
+    environment:
+      - YOLO=${YOLO}
